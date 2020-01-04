@@ -20,7 +20,7 @@
 
 <body>
 
-	<h2>Registration Form</h2>
+	<h2>Registration Form for Employees </h2>
  
 	<form:form method="POST" modelAttribute="employee">
 		<form:input type="hidden" path="id" id="id"/>

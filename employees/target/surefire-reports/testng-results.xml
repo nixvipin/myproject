@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="3940" started-at="2020-03-08T04:01:05Z" finished-at="2020-03-08T04:01:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3940" started-at="2020-03-08T04:01:05Z" finished-at="2020-03-08T04:01:09Z">
+      <class name="com.websystique.springmvc.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="setUp" is-config="true" duration-ms="539" started-at="2020-03-08T04:01:05Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="deleteEmployee" duration-ms="27" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="editEmployee" duration-ms="36" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="PASS" signature="listEmployees()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="listEmployees" duration-ms="21" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listEmployees -->
+        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="newEmployee" duration-ms="0" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployee -->
+        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="saveEmployeeWithSuccess" duration-ms="0" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithSuccess -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="saveEmployeeWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationErrorNonUniqueSSN -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="saveEmployeeWithValidationError" duration-ms="0" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationError -->
+        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="updateEmployeeWithSuccess" duration-ms="13" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithSuccess -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="updateEmployeeWithValidationError" duration-ms="0" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationError -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.websystique.springmvc.controller.AppControllerTest@26aa12dd]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="1" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.websystique.springmvc.controller.AppControllerTest -->
+      <class name="com.websystique.springmvc.service.EmployeeServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="setUp" is-config="true" duration-ms="16" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployeeBySsn()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="deleteEmployeeBySsn" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeBySsn -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="findById" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="findAllEmployees" duration-ms="0" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="isEmployeeSsnUnique()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="isEmployeeSsnUnique" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEmployeeSsnUnique -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="findEmployeeBySsn" duration-ms="0" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="saveEmployee" duration-ms="0" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+        <test-method status="PASS" signature="updateEmployee()[pri:0, instance:com.websystique.springmvc.service.EmployeeServiceImplTest@3fd7a715]" name="updateEmployee" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+      </class> <!-- com.websystique.springmvc.service.EmployeeServiceImplTest -->
+      <class name="com.websystique.springmvc.dao.EmployeeDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-03-08T04:01:06Z" finished-at="2020-03-08T04:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2392" started-at="2020-03-08T04:01:06Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-03-08T04:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="89" started-at="2020-03-08T04:01:08Z" finished-at="2020-03-08T04:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.deleteEmployeeByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="294" started-at="2020-03-08T04:01:08Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployeeByInvalidSsn()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="deleteEmployeeByInvalidSsn" duration-ms="189" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeByInvalidSsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="38" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.deleteEmployeeByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.deleteEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="22" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployeeBySsn()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="deleteEmployeeBySsn" duration-ms="3" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.deleteEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="30" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAllEmployees()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="findAllEmployees" duration-ms="2" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllEmployees -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findAllEmployees()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="18" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="35" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="findById" duration-ms="15" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="12" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="16" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findEmployeeBySsn()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="findEmployeeBySsn" duration-ms="28" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findEmployeeBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.findEmployeeBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="setUp" is-config="true" duration-ms="15" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="saveEmployee()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="saveEmployee" duration-ms="34" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.websystique.springmvc.dao.EmployeeDaoImplTest.saveEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.websystique.springmvc.dao.EmployeeDaoImplTest@9660f4e]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-03-08T04:01:09Z" finished-at="2020-03-08T04:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.websystique.springmvc.dao.EmployeeDaoImplTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+/usr/local/myproject/employees/src/test/java/com/websystique/springmvc/configuration/HibernateTestConfiguration.java
+/usr/local/myproject/employees/src/test/java/com/websystique/springmvc/service/EmployeeServiceImplTest.java
+/usr/local/myproject/employees/src/test/java/com/websystique/springmvc/dao/EntityDaoImplTest.java
+/usr/local/myproject/employees/src/test/java/com/websystique/springmvc/controller/AppControllerTest.java
+/usr/local/myproject/employees/src/test/java/com/websystique/springmvc/dao/EmployeeDaoImplTest.java

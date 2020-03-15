@@ -17,10 +17,10 @@
 
 
 <body>
-	<h2>List of Employees in Techm</h2>	
+	<h2>List of Employees in Capg</h2>	
 	<table>
 		<tr>
-			<td>Satya</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>Vipin</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>

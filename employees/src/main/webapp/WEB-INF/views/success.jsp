@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration Confirmation Page</title>
+<title>Registration Confirmation !!!</title>
 </head>
 <body>
 	message : ${success}

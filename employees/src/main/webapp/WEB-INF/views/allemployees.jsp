@@ -17,7 +17,7 @@
 
 
 <body>
-	<h2>List of Employees in Etlhive</h2>	
+	<h2>Employees in Etlhive</h2>	
 	<table>
 		<tr>
 			<td>Vipin</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Add New Employee of ETLHive</a>
+	<a href="<c:url value='/new' />">Add New Employee</a>
 </body>
 </html>

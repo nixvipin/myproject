@@ -17,7 +17,7 @@
 
 
 <body>
-	<h2>List of Employees in Techno</h2>	
+	<h2>List of Employees in Etlhive</h2>	
 	<table>
 		<tr>
 			<td>Vipin</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
